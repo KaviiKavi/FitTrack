@@ -31,7 +31,7 @@ namespace AuthService.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAdmins([FromBody] Owner input)
+        public async Task<IActionResult> CreateAdmins([FromBody] AdminUser input)
         {
             try
             {

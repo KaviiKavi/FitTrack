@@ -2,7 +2,7 @@
 
 namespace AuthService.Respository.Interface
 {
-    public interface IAdminRepository : IGenericRepository<AdminUser>
+    public interface IOwnerRepository : IGenericRepository<Owner>
     {
     }
 }
